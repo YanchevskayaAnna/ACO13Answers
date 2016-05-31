@@ -17,13 +17,15 @@ public class Duck implements Comparable {
 	public int compareTo(Object object) {
  
 		Duck otherDuck = (Duck)object;
-  
-		if (this.weight < otherDuck.weight) {
+
+		/*if (this.weight < otherDuck.weight) {
 			return -1;
 		} else if (this.weight == otherDuck.weight) {
 			return 0;
 		} else { // this.weight > otherDuck.weight
 			return 1;
-		}
+		}*/
+		return this.weight - otherDuck.weight;
+
 	}
 }
