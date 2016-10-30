@@ -5,6 +5,7 @@ package week3.testequals;
  */
 public class PointEqualsTest {
     public static void main(String[] args) {
+
         System.out.println("Сравниваем обычную точку и цветную точку:");
         Point p1 = new Point(1, 2);
         ColorPoint cp = new ColorPoint(1, 2, Color.RED);
@@ -16,5 +17,6 @@ public class PointEqualsTest {
         ColorPointComposition colorPointComposition = new ColorPointComposition(1, 2, Color.RED);
         System.out.println("p equals cp = " + p2.equals(colorPointComposition));
         System.out.println("cp equals p = " + colorPointComposition.equals(p2));
+
     }
 }

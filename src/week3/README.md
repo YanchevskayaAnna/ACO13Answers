@@ -37,6 +37,7 @@
                       return super.equals(o) && cp.color.equals(color);
                   }
               Пример:
+              
               ColorPoint p1 = new ColorPoint(1, 2, Color.RED);
               Point p2 = new Point(1, 2);
               ColorPoint p3 = new ColorPoint(1, 2, Color.BLUE);
@@ -47,3 +48,4 @@
               Делать проверку класса, а не наследника класса.
            3. Можно воспользоваться принципом "Предпочитайте композицию наследованию". См. класс ColorPointComposition.
               Данный класс не наследуется от Point, а хранит ссылки на Color и Point в реквизитах.
+              

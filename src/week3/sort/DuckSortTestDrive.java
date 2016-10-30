@@ -24,8 +24,10 @@ public class DuckSortTestDrive {
 	}
 
 	public static void display(Duck[] ducks) {
+
 		for (int i = 0; i < ducks.length; i++) {
 			System.out.println(ducks[i]);
 		}
+
 	}
 }

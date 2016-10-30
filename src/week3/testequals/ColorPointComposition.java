@@ -14,12 +14,14 @@ public class ColorPointComposition {
 
     @Override
     public boolean equals(Object o) {
+
         if (this == o) return true;
         if (!(o instanceof ColorPointComposition)) return false;
 
         ColorPointComposition cp = (ColorPointComposition) o;
 
         return cp.point.equals(point) && cp.color.equals(color);
+
     }
 
 }
